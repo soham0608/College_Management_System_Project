@@ -1,0 +1,45 @@
+CREATE DATABASE employee;
+USE employee;
+CREATE TABLE empoloyeedetails (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    uname VARCHAR(255) NOT NULL,
+    uemail VARCHAR(255) NOT NULL,
+    upassword VARCHAR(255) NOT NULL,
+    ucontact VARCHAR(25) NOT NULL
+);
+SELECT * FROM empoloyeedetails;
+DESCRIBE students;
+TRUNCATE TABLE students;
+INSERT INTO empoloyeedetails (uname, uemail, upassword, ucontact) 
+VALUES ('admin', 'admin@gmail.com', 'admin', '123456');
+------------------------------------------------------------------
+CREATE DATABASE IF NOT EXISTS userdb;
+
+USE userdb;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    country VARCHAR(255) NOT NULL
+);
+SELECT * FROM users;
+DESCRIBE users;
+TRUNCATE TABLE users;
+-----------------------------------------------------------------------
+
+
+CREATE DATABASE Register;
+USE Register;
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    uname VARCHAR(255) NOT NULL,
+    uemail VARCHAR(255) NOT NULL,
+    upassword VARCHAR(255) NOT NULL,
+    ucontact VARCHAR(25) NOT NULL
+);
+SELECT * FROM students;
+DESCRIBE students;
+TRUNCATE TABLE students;
+ INSERT INTO students (uname, uemail, upassword, ucontact) 
+VALUES ('admin', 'admin@gmail.com', 'admin', '123456');
