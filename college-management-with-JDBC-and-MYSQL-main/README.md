@@ -1,4 +1,4 @@
-# college-management-with-JDBC-and-MYSQL
+# College Management Website 
 
 College Management System with CRUD Operation| Responsive Website with JDBC and MySQL #JavaServlets
 
